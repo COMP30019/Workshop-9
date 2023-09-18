@@ -91,7 +91,7 @@ To address this issue, we can instead compute illumination at the
 pixel/fragment shader stage, and use _interpolated_ world-space position/normal
 information. In other words, we'll still compute world space positions and
 normals at the vertex shader stage, but defer the actual illumination model
-calculation until the pixel shader shage. This means lighting is recomputed
+calculation until the pixel shader stage. This means lighting is recomputed
 _per-pixel_ across the object surface. This technique is known as Phong
 _shading_. 
 
